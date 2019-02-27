@@ -15,6 +15,8 @@ To cite our work, please use the following bibtext.
   organization={IEEE}
 }
 ```
+
+Also, Feel free to [email me](mailto:xmi@iu.edu) for any questions. You can also [find me on Telegram](https://t.me/mixianghang).
 # Data
 # Source Code
 # Contact
