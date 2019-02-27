@@ -27,7 +27,7 @@ Feel free to [email me](mailto:xmi@iu.edu) :blush: for any questions. And you ca
 * Providers  
   This attribute represent which providers this IP address was captured from. Provider names are concatenated by underline
 
-**[IP addresses used to train the residential IP classifier](https://drive.google.com/open?id=13c-diderATP2RWMXO6Wc-3TCmR51wCDu)**. We collected 10K residential and 10K non-residential IP addresses to train our residential IP classifier, you can access those IP addresses [here](https://drive.google.com/open?id=13c-diderATP2RWMXO6Wc-3TCmR51wCDu)
+**[IP addresses used to train the residential IP classifier](https://drive.google.com/open?id=14MglpY2dPunVL3ci4Q_rtgJObrFClc6V)**. We collected 10K residential and 10K non-residential IP addresses to train our residential IP classifier, you can access those IP addresses [here](https://drive.google.com/open?id=14MglpY2dPunVL3ci4Q_rtgJObrFClc6V)
 # Source Code
 We are still working to format the source code for sharing. Basically, we intend to share the following components.
 * The infiltration framework.
