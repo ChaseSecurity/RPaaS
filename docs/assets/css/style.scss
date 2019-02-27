@@ -50,6 +50,10 @@ header a.button {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
 }
+#main-content {
+  float: left;
+  width: inherit;
+}
 aside#sidebar {
     width: 100% ! important;
     background-image: none;
