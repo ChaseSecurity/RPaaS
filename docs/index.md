@@ -2,8 +2,8 @@
 layout: default_1
 ---
 # Description
-In this project, we conducted a comprehensive study on emerging residential IP proxy as a service (RPaaS), between May 2017 and March 2018. Our study identified lots of interesting findings and answered several important questions around RPaaS. 
-You can refer to [our paper](https://mixianghang.github.io/pubs/rpaas.pdf) (published on IEEE S&P 2019) and [my blog article](https://medium.com/@xianghangmi/resident-evil-understanding-residential-ip-proxy-as-a-dark-service-dea9010a0e29?sk=1b84f109431dfd92a0c73ec101b21289) for more information. Here, we will not go through those details, but  focus on datasets and sourcecode, which may facilitage future research.
+In this project, we conducted a comprehensive study on the emerging residential IP proxy as a service (RPaaS), between May 2017 and March 2018. Our study identified lots of interesting findings and answered several important questions around RPaaS. 
+You can refer to [our paper](https://mixianghang.github.io/pubs/rpaas.pdf) (published on IEEE S&P 2019) and [my blog article](https://medium.com/@xianghangmi/resident-evil-understanding-residential-ip-proxy-as-a-dark-service-dea9010a0e29?sk=1b84f109431dfd92a0c73ec101b21289) for more information. Here, we will not go through those details, but  focus on datasets and sourcecode, which may facilitate future research.
 
 To cite our work, please use the following bibtext.
 ```bibtex
@@ -24,11 +24,12 @@ Feel free to [email me](mailto:xmi@iu.edu) :blush: for any questions. And you ca
 * Last captured date  
   The format is Year-Month-Day (e.g., 2019-02-05).
 * Number of distinct days when this IP address was captured  
+  This attribute counts the number of days  having this IP address captured relaying our traffic.
 * Providers  
   This attribute represent which providers this IP address was captured from. Provider names are concatenated by underline
 
-**[IP addresses used to train the residential IP classifier](https://drive.google.com/open?id=14MglpY2dPunVL3ci4Q_rtgJObrFClc6V)**. We collected 10K residential and 10K non-residential IP addresses to train our residential IP classifier, you can access those IP addresses [here](https://drive.google.com/open?id=14MglpY2dPunVL3ci4Q_rtgJObrFClc6V)
+**[IP addresses used to train the residential IP classifier](https://drive.google.com/open?id=14MglpY2dPunVL3ci4Q_rtgJObrFClc6V)**. We collected 10K residential and 10K non-residential IP addresses to train our residential IP classifier, you can access those IP addresses [here](https://drive.google.com/open?id=14MglpY2dPunVL3ci4Q_rtgJObrFClc6V).
 # Source Code
 We are still working to format the source code for sharing. Basically, we intend to share the following components.
-* The infiltration framework.
-* The IP profiling tool.
+* The infiltration framework
+* The IP profiling tool
