@@ -27,4 +27,6 @@ Feel free to [email me](mailto:xmi@iu.edu) :blush: for any questions. And you ca
 * Providers  
   This attribute represent which providers this IP address was captured from. Provider names are concatenated by underline
 
+**IP addresses used to train the residential IP classifier**.
 # Source Code
+We are still working to format the source code for sharing.
