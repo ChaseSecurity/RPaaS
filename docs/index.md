@@ -16,7 +16,7 @@ To cite our work, please use the following bibtext.
 }
 ```
 
-Feel free to [email me](mailto:xmi@iu.edu) for any questions. And you can also [find me on Telegram](https://t.me/mixianghang). Furthermore, **Donation will be very helpful to support my follow-up projects.** [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=TKKLW85SU99TU&currency_code=USD&source=url)
+Feel free to [email me](mailto:xmi@iu.edu) for any questions. And you can also [find me on Telegram](https://t.me/mixianghang). Furthermore, **[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=TKKLW85SU99TU&currency_code=USD&source=url) will be very helpful to support my follow-up projects.**
 # Data
 # Source Code
 # Contact
