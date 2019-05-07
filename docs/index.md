@@ -29,6 +29,8 @@ Feel free to [email me](mailto:xmi@iu.edu) :blush: for any questions. And you ca
   This attribute represent which providers this IP address was captured from. Provider names are concatenated by underline
 
 **[IP addresses used to train the residential IP classifier](https://drive.google.com/open?id=14MglpY2dPunVL3ci4Q_rtgJObrFClc6V)**. We collected 10K residential and 10K non-residential IP addresses to train our residential IP classifier, you can access those IP addresses [here](https://drive.google.com/open?id=14MglpY2dPunVL3ci4Q_rtgJObrFClc6V).
+
+**[Samples identified to relay our infiltration traffic](data/proxy_peer_sample_md5s.txt)**. In our study, we identified 67 various program samples relaying our infiltration traffic, and many of them were reported as suspicious by some anti-virus engines. 
 # Source Code
 We are still working to format the source code for sharing. Basically, we intend to share the following components.
 * The infiltration framework
