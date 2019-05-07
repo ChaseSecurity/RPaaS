@@ -9,7 +9,7 @@ To cite our work, please use the following bibtext.
 ```bibtex
 @inproceedings{mi2019resident,
   title={Resident Evil: Understanding Residential IP Proxy as a Dark Service},
-  author={Mi, Xianghang and Liu, Ying and Feng, Xuan and Liao, Xiaojing and Liu, Baojun and Wang, XiaoFeng and Qian, Feng and Li, Zhou and Alrwais, Sumayah and Sun, Limin},
+  author={Mi, Xianghang and Feng, Xuan and Liao, Xiaojing and Liu, Baojun and Wang, XiaoFeng and Qian, Feng and Li, Zhou and Alrwais, Sumayah and Sun, Limin and Liu, Ying},
   booktitle={2019 IEEE Symposium on Security and Privacy (SP)},
   year={2019},
   organization={IEEE}
