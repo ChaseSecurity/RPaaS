@@ -1,0 +1,22 @@
+id: proxy_provider # required
+name: proxy_provider # required
+user: xxx # optional
+passwd: yyy # optional
+proxy_type: http|https # optional
+is_sticky: yes # optional
+proxies: # required
+    # for sticky file, each line contains proxy_ip\tproxy_port\tsticky_time\n
+    - file: template/sticky.csv # tab separated fields
+      user: # optional
+      passwd: # optional
+      proxy_type: http|https # optional
+      is_sticky: yes # optional
+      sep: ","
+    # for non-sticky file, each line contains proxy_ip\tproxy_port\n
+    - file: template/nonsticky.csv
+      user:
+      passwd:
+      proxy_type: http|https
+      is_sticky: no
+      sep: ","
+
