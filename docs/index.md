@@ -16,7 +16,8 @@ To cite our work, please use the following bibtext.
 }
 ```
 
-Feel free to [email me](mailto:xmi@iu.edu) :blush: for any questions. And you can also [find me on Telegram](https://t.me/mixianghang). Furthermore, **[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=TKKLW85SU99TU&currency_code=USD&source=url) will be very helpful to support my follow-up projects.**
+Feel free to [email me](mailto:xmi@iu.edu) :blush: for any questions. And you can also [find me on Telegram](https://t.me/mixianghang). 
+<!--Furthermore, **[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=TKKLW85SU99TU&currency_code=USD&source=url) will be very helpful to support my follow-up projects.**-->
 # Data
 **[IP addresses captured as residential web proxies](https://drive.google.com/file/d/1CFpWbn5NW1GRtzlB35tpdc3yGhQ9l1Hf/view?usp=sharing)**. We infiltrated 5 RPaaS providers between July 2017 and March 2018, which captured more than 6M IPv4 addresses acting as exit nodes for our infiltration traffic. You can download those IP addresses [here](https://drive.google.com/file/d/1CFpWbn5NW1GRtzlB35tpdc3yGhQ9l1Hf/view?usp=sharing) wherein each line denotes an unique IP address along with some important attributes, separated by Tab.
 * First captured date  
