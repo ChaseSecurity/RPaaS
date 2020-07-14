@@ -5,7 +5,7 @@ This directory includes all the client-side programs for infiltration and device
 
 ## Prior Requirements
 You need to get the server-side programs running, including the web server, the dns server, and the message queue (rabbitMQ). Please follow the instructions in 
-[the web_server directory](https://github.com/mixianghang/RPaaS/tree/master/infiltration_servers).
+[the web_server directory](https://github.com/mixianghang/RPaaS/tree/master/infiltration_servers/web_server).
 ## Initialization
 ```
 ./clientInit.sh
