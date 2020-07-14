@@ -14,7 +14,7 @@ pip install -r ./requirements.txt
 ```
 
 ## Client to send out infiltration traffic
-The following script is used to send infiltration probes. As denoted in the CLI help. You need to set up the infiltration config for each proxy provider, following the template in proxy_providers.
+The following script is used to send infiltration probes. As denoted in the CLI help. You need to set up the infiltration config for each proxy provider, following the template in [proxy_providers](https://github.com/mixianghang/RPaaS/tree/master/infiltration_clients/proxy_providers).
 ```
 python3 ./collectProxyNodes.py -h
 
