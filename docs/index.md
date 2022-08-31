@@ -2,10 +2,11 @@
 layout: default_1
 ---
 
+In this project, we conducted a series of studies on residential proxies between 2017 and 2022, rendering multiple papers published in top security venues and respective datasets released, as detailed below.
+
 # Residential Proxies in China
 Our latest study in this project moves the spotlight to the ecosystem of residential proxies in China, and we have one paper accepted by CCS 2022 under the title of *An Extensive Study of Residential Proxies in China*. **We are working to release the relevant datasets and source code, and will provide updates here"
 
-In this project, we conducted a series of studies on residential proxies between 2017 and 2022, rendering multiple papers published in top security venues and respective datasets released, as detailed below.
 # Mobile Devices Serving as Residential Proxies
 Between 2019 and 2021, we carried out a follow-up work dedicated to profiling the controversial recruitment of mobile devices into residential proxies, and you can learn more from our NDSS paper *Your Phone is My Proxy: Detecting and Understanding Mobile Proxy Networks*. And the relevant datasets can be found in [this github repository](https://github.com/OnionSecurity/mpaas).
 
