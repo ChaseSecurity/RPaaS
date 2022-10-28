@@ -8,7 +8,41 @@ Feel free to [email me](mailto:xianghangmi@gmail.com) :blush: for any questions.
 <!--Furthermore, **[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=TKKLW85SU99TU&currency_code=USD&source=url) will be very helpful to support my follow-up projects.**-->
 
 # Residential Proxies in China
-Our latest study in this project moves the spotlight to the ecosystem of residential proxies in China, and we have one paper accepted by CCS 2022 under the title of *An Extensive Study of Residential Proxies in China*. **We are working to release the relevant datasets and source code, and will provide updates here.**
+Our latest study in this project moves the spotlight to the ecosystem of residential proxies in China, and we have one paper accepted by CCS 2022 under the title of [*An Extensive Study of Residential Proxies in China*](https://arxiv.org/abs/2209.06056). 
+
+**The datasets of residential proxies**. As detailed in the paper, we have captured more than 9 millions of residential proxies, among which, 4.6 millions are located in China. we provide [the full list of these residential proxies](https://drive.google.com/file/d/1lZFNvFb9D3a2cyYQp5DSFZdLYx3z_O5R/view?usp=sharing) as a 800MB json file stored in Google Drive. Each line of this json file is a json object representating a unique residential proxy IP along with multiple attributes as listed below.
+* *ip* denotes the residential proxy IP address
+* *groups* is an array representing the list of groups that the specific proxy belong to, and these groups include:
+  - *BC*: backconnect residential proxy
+  - *DA*: direct residential proxy captured from web APIs
+  - *DP*: direct residentil proxy captured by querying passive DNS
+ * *providers* is the list of proxy service that this residential proxy has been observed. Each element is in the format of {provider}_{group}. For instance, given an IP observed as a backconnect residential proxy of provider IPIDEA, *IPIDEA_BC* will be a member of its *provider* field.
+
+The following snippet gives a typical example of aforementioned json structure.
+
+```json
+{
+  "ip": "60.175.21.55",
+  "groups": [
+    "DA_IPs",
+    "BC_IPs",
+    "DP_IPs"
+  ],
+  "providers": [
+    "IPIDEA_BC",
+    "PinYiYun_DA",
+    "XiaoXiang_DA",
+    "JiGuang_BC",
+    "XiaoXiang_BC",
+    "PinYiYun_BC",
+    "JiGuang_DA",
+    "upaix.cn_DP"
+  ]
+}
+```
+
+**The dataset of residentil proxy websites (services)**. Our study has also discovered 399 resideltial proxy services, leveraging a machine learning classifier.
+We are working to annotate this dataset with necessary attributes, and will make it available very soon!
 
 # Mobile Devices Serving as Residential Proxies
 Between 2019 and 2021, we carried out a follow-up work dedicated to profiling the controversial recruitment of mobile devices into residential proxies, and you can learn more from our NDSS paper *Your Phone is My Proxy: Detecting and Understanding Mobile Proxy Networks*. And the relevant datasets can be found in [this github repository](https://github.com/OnionSecurity/mpaas).
