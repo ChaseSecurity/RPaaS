@@ -41,8 +41,8 @@ The following snippet gives a typical example of aforementioned json structure.
 }
 ```
 
-**The dataset of residentil proxy websites (services)**. Our study has also discovered 399 resideltial proxy services, leveraging a machine learning classifier.
-We are working to annotate this dataset with necessary attributes, and will make it available very soon!
+**The dataset of residentil proxy websites (services)**. Our study has also discovered [399 resideltial proxy services](https://drive.google.com/file/d/1ZPavo7Tmyp5UyXYVbNiKzJunghDU8jKn/view?usp=sharing), leveraging a machine learning classifier.
+You can download this dataset [here](https://drive.google.com/file/d/1ZPavo7Tmyp5UyXYVbNiKzJunghDU8jKn/view?usp=sharing), wherein each line is a residential proxy service website along with its default language.
 
 # Mobile Devices Serving as Residential Proxies
 Between 2019 and 2021, we carried out a follow-up work dedicated to profiling the controversial recruitment of mobile devices into residential proxies, and you can learn more from our NDSS paper *Your Phone is My Proxy: Detecting and Understanding Mobile Proxy Networks*. And the relevant datasets can be found in [this github repository](https://github.com/OnionSecurity/mpaas).
