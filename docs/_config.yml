@@ -1,6 +1,6 @@
 theme: jekyll-theme-architect
 title: RPaaS
-description: Characterizing Residential IP Proxy as a Service
+description: Qualifying and Quantifying the Security Risks of Residential Proxies
 repository: mixianghang/RPaaS
 google_analytics: UA-135317264-1
 plugins:
