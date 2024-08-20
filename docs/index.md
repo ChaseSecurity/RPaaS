@@ -108,6 +108,6 @@ Then, regarding the (malicious) usage of RESIPs (i.e., what traffic is relayed b
 To fill in these gaps, we conducted the fourth sub project along with multiple novel tools designed and implemented. These tools include a general framework to deploy RESIP nodes and collect RESIP traffic in a distributed manner, a RESIP traffic analyzer to efficiently process RESIP traffic logs and surface out suspicious traffic flows, and multiple machine learning based RESIP traffic classifiers to timely and accurately detect whether a given traffic flow is RESIP traffic or not.
 
 To learn more details of this study, please refer to our paper titled as [Shining Light into the Tunnel: Understanding and Classifying Network Traffic of Residential Proxies](https://arxiv.org/abs/2404.10610).
-We have also released the code/datasets in [this separate github repository](github.com/ChaseSecurity/bandwidth_sharing).
+We have also released the code/datasets in [this separate github repository](https://github.com/ChaseSecurity/bandwidth_sharing).
 
 
